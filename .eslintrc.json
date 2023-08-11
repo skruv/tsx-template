@@ -1,0 +1,22 @@
+{
+  "overrides": [
+    {
+      "files": [
+        "*.js",
+        "*.jsx",
+        "*.ts",
+        "*.tsx"
+      ],
+      "extends": [
+        "standard-with-typescript",
+        "standard-jsx"
+      ],
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "rules": {
+        "react/jsx-key": "off"
+      }
+    }
+  ]
+}

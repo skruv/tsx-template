@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noEmit": true,
+    "target": "es2018",
+    "moduleResolution": "node",
+    "module": "es2020",
+    "jsx": "preserve",
+    "jsxFactory": "jsx",
+    "jsxImportSource": "@skruv/jsx"
+  },
+  "include": ["index.tsx"]
+}
